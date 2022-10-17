@@ -22,7 +22,7 @@ public class MathUtilTest {
     //test case 2: n = 2, expected  = true
     //test case 3: n = 3, expected  = true
     //test case 4: n = 4, expected  = false
-    public void testFactorialGivenRightArgumentReturnsWell() {
+    public void testPrimeGivenRightArgumentReturnsWell() {
         boolean expected = false;
         boolean actual = MathUtil.isPrime(1);
         Assert.assertEquals(actual, expected);
@@ -35,7 +35,7 @@ public class MathUtilTest {
 //    @Ignore
     @Test(expectedExceptions = IllegalArgumentException.class)
     //test case 5: n = -5, expected : hi vong thay ngoai le duoc nem ra
-    public void testFactorialGivenWrongArgumentThrowsException() {
+    public void testPrimeGivenWrongArgumentThrowsException() {
         MathUtil.isPrime(-5);
     }
 }

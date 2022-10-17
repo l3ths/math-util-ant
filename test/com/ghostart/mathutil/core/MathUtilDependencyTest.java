@@ -18,7 +18,7 @@ public class MathUtilDependencyTest {
     
     @Test
     public void testDependency1(){
-        Assert.assertEquals(MathUtil.isPrime(8), true);
+        Assert.assertEquals(MathUtil.isPrime(7), true);
         
     }
     

@@ -2,7 +2,7 @@
 # Welcome to Math-Util Repository
 ## You will find in this repo the following stuff:
 * A Java Math Library to replicate a famous JDK library: Math class
-* A Util testing test script using JUnit framework
+* A Util testing test script using TestNG framework
 * A Build script using Ant build tool
 * ...
 

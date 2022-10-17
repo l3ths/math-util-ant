@@ -19,7 +19,7 @@ public class MathUtilDDTTest {
     }
 
     @DataProvider(name = "testPrime")
-    public static String[][] initData() {
+    public static Object[][] initData() {
 
         return new String[][]{
             {"0", "false"}, {"1", "false"}, {"2", "true"}, {"3", "true"}, {"4", "false"}, {"5", "true"}, {"6", "false"}

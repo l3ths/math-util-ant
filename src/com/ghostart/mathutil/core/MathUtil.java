@@ -13,8 +13,8 @@ import static java.lang.Math.sqrt;
 public class MathUtil {
 
     public static boolean isPrime(int n) {
-        if (n < 0 || n > 127) {
-            throw new IllegalArgumentException("invalid argument. n must be between -128..127");
+        if (n < 0) {
+            throw new IllegalArgumentException("invalid argument. n must be a non-negative number");
         }
         if (n == 1 || n == 0) {
             return false;
